@@ -1,0 +1,18 @@
+.container {
+	width: 100%;
+	padding: 0 160px;
+	background-color: $Dark;
+	min-height: 100vh;
+
+	@include media("max", "xl") {
+		padding: 0 80px;
+	}
+
+	@include media("max", "lg") {
+		padding: 0 40px;
+	}
+
+	@include media("max", "sm") {
+		padding: 0 20px;
+	}
+}
