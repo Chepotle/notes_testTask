@@ -59,7 +59,7 @@ export default {
 		background-color: $DarkMiddle;
 		max-width: 780px;
 		width: 100%;
-		position: absolute;
+		position: fixed;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
@@ -70,12 +70,9 @@ export default {
 			max-width: 594px;
 		}
 		@include media("max", "lg") {
-			transform: translateX(-50%);
-			top: 135px;
 			max-width: 688px;
 		}
 		@include media("max", "sm") {
-			top: 0;
 			padding: 24px 16px;
 		}
 	}
