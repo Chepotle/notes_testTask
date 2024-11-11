@@ -53,7 +53,7 @@ export default {
 	height: 100%;
 	background-color: rgba(27, 47, 70, 0.5);
 	position: absolute;
-	z-index: 10;
+	z-index: 15;
 	&__content {
 		z-index: 15;
 		background-color: $DarkMiddle;

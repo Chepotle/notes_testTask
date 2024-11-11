@@ -116,7 +116,7 @@ export default {
 		height: 56px;
 		border-radius: 50%;
 		background-color: $GreenLight;
-		position: absolute;
+		position: fixed;
 		right: 40px;
 		bottom: 40px;
 		display: flex;
